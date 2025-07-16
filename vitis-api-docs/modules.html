@@ -1,0 +1,546 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Packages &mdash; Vitis Python CLI Documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=47cc2457"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="vitis package" href="vitis.html" />
+    <link rel="prev" title="Vitis Python CLI 2025.1 documentation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Vitis Python CLI 2025.1
+              <img src="_static/xilinx-header-logo.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Packages</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html">vitis package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xsdb.html">xsdb package</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Vitis Python CLI 2025.1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Packages</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="packages">
+<h1>Packages<a class="headerlink" href="#packages" title="Link to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="vitis.html">vitis package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#module-vitis.analysis">vitis.analysis module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.analysis.AnalysisService"><code class="docutils literal notranslate"><span class="pre">AnalysisService</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.analysis.AnalysisService.get_vitis_analyzer"><code class="docutils literal notranslate"><span class="pre">AnalysisService.get_vitis_analyzer()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.analysis.VitisAnalyzer"><code class="docutils literal notranslate"><span class="pre">VitisAnalyzer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.analysis.VitisAnalyzer.export_aiesim_continuous_latency"><code class="docutils literal notranslate"><span class="pre">VitisAnalyzer.export_aiesim_continuous_latency()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.analysis.VitisAnalyzer.export_aiesim_continuous_throughput"><code class="docutils literal notranslate"><span class="pre">VitisAnalyzer.export_aiesim_continuous_throughput()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.analysis.VitisAnalyzer.export_aiesim_latency"><code class="docutils literal notranslate"><span class="pre">VitisAnalyzer.export_aiesim_latency()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.analysis.VitisAnalyzer.export_aiesim_throughput"><code class="docutils literal notranslate"><span class="pre">VitisAnalyzer.export_aiesim_throughput()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.analysis.VitisAnalyzer.get_aiesim_continuous_latency"><code class="docutils literal notranslate"><span class="pre">VitisAnalyzer.get_aiesim_continuous_latency()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.analysis.VitisAnalyzer.get_aiesim_continuous_throughput"><code class="docutils literal notranslate"><span class="pre">VitisAnalyzer.get_aiesim_continuous_throughput()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#module-vitis.cli_client">vitis.cli_client module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.cli_client.Accelerated"><code class="docutils literal notranslate"><span class="pre">Accelerated</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Accelerated.create_aie_component"><code class="docutils literal notranslate"><span class="pre">Accelerated.create_aie_component()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Accelerated.create_hls_component"><code class="docutils literal notranslate"><span class="pre">Accelerated.create_hls_component()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Accelerated.get_vitis_analyzer"><code class="docutils literal notranslate"><span class="pre">Accelerated.get_vitis_analyzer()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded"><code class="docutils literal notranslate"><span class="pre">Embedded</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.add_embedded_sw_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.add_embedded_sw_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.add_git_example_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.add_git_example_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.add_local_example_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.add_local_example_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.add_platform_repos"><code class="docutils literal notranslate"><span class="pre">Embedded.add_platform_repos()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.check_workspace"><code class="docutils literal notranslate"><span class="pre">Embedded.check_workspace()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.clone_component"><code class="docutils literal notranslate"><span class="pre">Embedded.clone_component()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.clone_sys_project"><code class="docutils literal notranslate"><span class="pre">Embedded.clone_sys_project()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.close"><code class="docutils literal notranslate"><span class="pre">Embedded.close()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.create_advanced_options_dict"><code class="docutils literal notranslate"><span class="pre">Embedded.create_advanced_options_dict()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.create_app_component"><code class="docutils literal notranslate"><span class="pre">Embedded.create_app_component()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.create_library_component"><code class="docutils literal notranslate"><span class="pre">Embedded.create_library_component()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.create_platform_component"><code class="docutils literal notranslate"><span class="pre">Embedded.create_platform_component()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.create_sys_project"><code class="docutils literal notranslate"><span class="pre">Embedded.create_sys_project()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.delete_component"><code class="docutils literal notranslate"><span class="pre">Embedded.delete_component()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.delete_example_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.delete_example_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.delete_platform_repos"><code class="docutils literal notranslate"><span class="pre">Embedded.delete_platform_repos()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.delete_sys_project"><code class="docutils literal notranslate"><span class="pre">Embedded.delete_sys_project()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.export_projects"><code class="docutils literal notranslate"><span class="pre">Embedded.export_projects()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.find_platform_in_repos"><code class="docutils literal notranslate"><span class="pre">Embedded.find_platform_in_repos()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.find_platforms_in_repos"><code class="docutils literal notranslate"><span class="pre">Embedded.find_platforms_in_repos()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_component"><code class="docutils literal notranslate"><span class="pre">Embedded.get_component()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_config_file"><code class="docutils literal notranslate"><span class="pre">Embedded.get_config_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_embedded_sw_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.get_embedded_sw_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_example_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.get_example_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_example_repo_state"><code class="docutils literal notranslate"><span class="pre">Embedded.get_example_repo_state()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_hw_platform"><code class="docutils literal notranslate"><span class="pre">Embedded.get_hw_platform()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_preference"><code class="docutils literal notranslate"><span class="pre">Embedded.get_preference()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_processor_os_list"><code class="docutils literal notranslate"><span class="pre">Embedded.get_processor_os_list()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_project_info"><code class="docutils literal notranslate"><span class="pre">Embedded.get_project_info()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_sw_platform"><code class="docutils literal notranslate"><span class="pre">Embedded.get_sw_platform()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_sys_project"><code class="docutils literal notranslate"><span class="pre">Embedded.get_sys_project()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_template"><code class="docutils literal notranslate"><span class="pre">Embedded.get_template()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_templates"><code class="docutils literal notranslate"><span class="pre">Embedded.get_templates()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.get_workspace"><code class="docutils literal notranslate"><span class="pre">Embedded.get_workspace()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.import_projects"><code class="docutils literal notranslate"><span class="pre">Embedded.import_projects()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.info"><code class="docutils literal notranslate"><span class="pre">Embedded.info()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.list_components"><code class="docutils literal notranslate"><span class="pre">Embedded.list_components()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.list_example_repos"><code class="docutils literal notranslate"><span class="pre">Embedded.list_example_repos()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.list_platform_components"><code class="docutils literal notranslate"><span class="pre">Embedded.list_platform_components()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.list_platform_repos"><code class="docutils literal notranslate"><span class="pre">Embedded.list_platform_repos()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.list_platforms"><code class="docutils literal notranslate"><span class="pre">Embedded.list_platforms()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.list_sys_projects"><code class="docutils literal notranslate"><span class="pre">Embedded.list_sys_projects()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.log_level"><code class="docutils literal notranslate"><span class="pre">Embedded.log_level()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.remove_embedded_sw_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.remove_embedded_sw_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.rescan_embedded_sw_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.rescan_embedded_sw_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.rescan_platform_repos"><code class="docutils literal notranslate"><span class="pre">Embedded.rescan_platform_repos()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.reset_example_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.reset_example_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.set_embedded_sw_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.set_embedded_sw_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.set_preference"><code class="docutils literal notranslate"><span class="pre">Embedded.set_preference()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.set_workspace"><code class="docutils literal notranslate"><span class="pre">Embedded.set_workspace()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.sync_git_example_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.sync_git_example_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.update_example_repo"><code class="docutils literal notranslate"><span class="pre">Embedded.update_example_repo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.cli_client.Embedded.update_workspace"><code class="docutils literal notranslate"><span class="pre">Embedded.update_workspace()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#module-vitis.component">vitis.component module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.component.AIEComponent"><code class="docutils literal notranslate"><span class="pre">AIEComponent</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.AIEComponent.add_cfg_file"><code class="docutils literal notranslate"><span class="pre">AIEComponent.add_cfg_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.AIEComponent.build"><code class="docutils literal notranslate"><span class="pre">AIEComponent.build()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.AIEComponent.clean"><code class="docutils literal notranslate"><span class="pre">AIEComponent.clean()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.AIEComponent.generate_build_files"><code class="docutils literal notranslate"><span class="pre">AIEComponent.generate_build_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.AIEComponent.remove_cfg_file"><code class="docutils literal notranslate"><span class="pre">AIEComponent.remove_cfg_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.AIEComponent.update_top_level_file"><code class="docutils literal notranslate"><span class="pre">AIEComponent.update_top_level_file()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.component.BuildSettings"><code class="docutils literal notranslate"><span class="pre">BuildSettings</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.BuildSettings.append_app_config"><code class="docutils literal notranslate"><span class="pre">BuildSettings.append_app_config()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.BuildSettings.get_app_config"><code class="docutils literal notranslate"><span class="pre">BuildSettings.get_app_config()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.BuildSettings.get_config_info"><code class="docutils literal notranslate"><span class="pre">BuildSettings.get_config_info()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.BuildSettings.remove_app_config"><code class="docutils literal notranslate"><span class="pre">BuildSettings.remove_app_config()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.BuildSettings.set_app_config"><code class="docutils literal notranslate"><span class="pre">BuildSettings.set_app_config()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.component.Component"><code class="docutils literal notranslate"><span class="pre">Component</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.Component.import_files"><code class="docutils literal notranslate"><span class="pre">Component.import_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.Component.remove_files"><code class="docutils literal notranslate"><span class="pre">Component.remove_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.Component.report"><code class="docutils literal notranslate"><span class="pre">Component.report()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.component.HLSComponent"><code class="docutils literal notranslate"><span class="pre">HLSComponent</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HLSComponent.add_cfg_file"><code class="docutils literal notranslate"><span class="pre">HLSComponent.add_cfg_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HLSComponent.remove_cfg_file"><code class="docutils literal notranslate"><span class="pre">HLSComponent.remove_cfg_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HLSComponent.run"><code class="docutils literal notranslate"><span class="pre">HLSComponent.run()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.component.HostComponent"><code class="docutils literal notranslate"><span class="pre">HostComponent</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HostComponent.build"><code class="docutils literal notranslate"><span class="pre">HostComponent.build()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HostComponent.clean"><code class="docutils literal notranslate"><span class="pre">HostComponent.clean()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HostComponent.generate_build_files"><code class="docutils literal notranslate"><span class="pre">HostComponent.generate_build_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HostComponent.get_ld_script"><code class="docutils literal notranslate"><span class="pre">HostComponent.get_ld_script()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HostComponent.get_sysroot"><code class="docutils literal notranslate"><span class="pre">HostComponent.get_sysroot()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HostComponent.set_sysroot"><code class="docutils literal notranslate"><span class="pre">HostComponent.set_sysroot()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HostComponent.update_sysroot_toolchain"><code class="docutils literal notranslate"><span class="pre">HostComponent.update_sysroot_toolchain()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.HostComponent.use_sysroot_toolchain"><code class="docutils literal notranslate"><span class="pre">HostComponent.use_sysroot_toolchain()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.component.LibraryComponent"><code class="docutils literal notranslate"><span class="pre">LibraryComponent</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.component.LibraryComponent.build"><code class="docutils literal notranslate"><span class="pre">LibraryComponent.build()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#module-vitis.configfile">vitis.configfile module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFile"><code class="docutils literal notranslate"><span class="pre">ConfigFile</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFile.add_lines"><code class="docutils literal notranslate"><span class="pre">ConfigFile.add_lines()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFile.add_values"><code class="docutils literal notranslate"><span class="pre">ConfigFile.add_values()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFile.get_lines"><code class="docutils literal notranslate"><span class="pre">ConfigFile.get_lines()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFile.get_sections"><code class="docutils literal notranslate"><span class="pre">ConfigFile.get_sections()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFile.get_value"><code class="docutils literal notranslate"><span class="pre">ConfigFile.get_value()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFile.get_values"><code class="docutils literal notranslate"><span class="pre">ConfigFile.get_values()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFile.remove"><code class="docutils literal notranslate"><span class="pre">ConfigFile.remove()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFile.set_value"><code class="docutils literal notranslate"><span class="pre">ConfigFile.set_value()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFile.set_values"><code class="docutils literal notranslate"><span class="pre">ConfigFile.set_values()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFileService"><code class="docutils literal notranslate"><span class="pre">ConfigFileService</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.configfile.ConfigFileService.config_file"><code class="docutils literal notranslate"><span class="pre">ConfigFileService.config_file()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#module-vitis.domain">vitis.domain module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.domain.Domain"><code class="docutils literal notranslate"><span class="pre">Domain</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.generate_bif"><code class="docutils literal notranslate"><span class="pre">Domain.generate_bif()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.get_applicable_libs"><code class="docutils literal notranslate"><span class="pre">Domain.get_applicable_libs()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.get_config"><code class="docutils literal notranslate"><span class="pre">Domain.get_config()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.get_drivers"><code class="docutils literal notranslate"><span class="pre">Domain.get_drivers()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.get_libs"><code class="docutils literal notranslate"><span class="pre">Domain.get_libs()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.get_os"><code class="docutils literal notranslate"><span class="pre">Domain.get_os()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.list_params"><code class="docutils literal notranslate"><span class="pre">Domain.list_params()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.recompile_dtb"><code class="docutils literal notranslate"><span class="pre">Domain.recompile_dtb()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.regenerate"><code class="docutils literal notranslate"><span class="pre">Domain.regenerate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.remove_lib"><code class="docutils literal notranslate"><span class="pre">Domain.remove_lib()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.report"><code class="docutils literal notranslate"><span class="pre">Domain.report()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.set_bif"><code class="docutils literal notranslate"><span class="pre">Domain.set_bif()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.set_boot_dir"><code class="docutils literal notranslate"><span class="pre">Domain.set_boot_dir()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.set_config"><code class="docutils literal notranslate"><span class="pre">Domain.set_config()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.set_dtb"><code class="docutils literal notranslate"><span class="pre">Domain.set_dtb()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.set_lib"><code class="docutils literal notranslate"><span class="pre">Domain.set_lib()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.set_qemu_args"><code class="docutils literal notranslate"><span class="pre">Domain.set_qemu_args()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.set_qemu_data"><code class="docutils literal notranslate"><span class="pre">Domain.set_qemu_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.set_sd_dir"><code class="docutils literal notranslate"><span class="pre">Domain.set_sd_dir()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.update_name"><code class="docutils literal notranslate"><span class="pre">Domain.update_name()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.domain.Domain.update_path"><code class="docutils literal notranslate"><span class="pre">Domain.update_path()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#module-vitis.ldfile">vitis.ldfile module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile"><code class="docutils literal notranslate"><span class="pre">Ldfile</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile.add_memory_region"><code class="docutils literal notranslate"><span class="pre">Ldfile.add_memory_region()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile.get_heap_size"><code class="docutils literal notranslate"><span class="pre">Ldfile.get_heap_size()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile.get_ld_sections"><code class="docutils literal notranslate"><span class="pre">Ldfile.get_ld_sections()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile.get_memory_regions"><code class="docutils literal notranslate"><span class="pre">Ldfile.get_memory_regions()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile.get_stack_size"><code class="docutils literal notranslate"><span class="pre">Ldfile.get_stack_size()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile.regenerate"><code class="docutils literal notranslate"><span class="pre">Ldfile.regenerate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile.set_heap_size"><code class="docutils literal notranslate"><span class="pre">Ldfile.set_heap_size()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile.set_stack_size"><code class="docutils literal notranslate"><span class="pre">Ldfile.set_stack_size()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile.update_ld_section"><code class="docutils literal notranslate"><span class="pre">Ldfile.update_ld_section()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.ldfile.Ldfile.update_memory_region"><code class="docutils literal notranslate"><span class="pre">Ldfile.update_memory_region()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#module-vitis.logger">vitis.logger module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.logger.Logger"><code class="docutils literal notranslate"><span class="pre">Logger</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.logger.Logger.log_level"><code class="docutils literal notranslate"><span class="pre">Logger.log_level()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#module-vitis.platform_component">vitis.platform_component module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform"><code class="docutils literal notranslate"><span class="pre">Platform</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.add_domain"><code class="docutils literal notranslate"><span class="pre">Platform.add_domain()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.build"><code class="docutils literal notranslate"><span class="pre">Platform.build()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.clean"><code class="docutils literal notranslate"><span class="pre">Platform.clean()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.delete_domain"><code class="docutils literal notranslate"><span class="pre">Platform.delete_domain()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.generate_boot_bsp"><code class="docutils literal notranslate"><span class="pre">Platform.generate_boot_bsp()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.get_domain"><code class="docutils literal notranslate"><span class="pre">Platform.get_domain()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.import_files"><code class="docutils literal notranslate"><span class="pre">Platform.import_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.list_domains"><code class="docutils literal notranslate"><span class="pre">Platform.list_domains()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.remove_boot_bsp"><code class="docutils literal notranslate"><span class="pre">Platform.remove_boot_bsp()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.remove_files"><code class="docutils literal notranslate"><span class="pre">Platform.remove_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.report"><code class="docutils literal notranslate"><span class="pre">Platform.report()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.retarget_fsbl"><code class="docutils literal notranslate"><span class="pre">Platform.retarget_fsbl()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.set_fsbl_elf"><code class="docutils literal notranslate"><span class="pre">Platform.set_fsbl_elf()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.set_pmufw_elf"><code class="docutils literal notranslate"><span class="pre">Platform.set_pmufw_elf()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.update_desc"><code class="docutils literal notranslate"><span class="pre">Platform.update_desc()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.platform_component.Platform.update_hw"><code class="docutils literal notranslate"><span class="pre">Platform.update_hw()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#module-vitis.project">vitis.project module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.project.Project"><code class="docutils literal notranslate"><span class="pre">Project</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.add_cfg_files"><code class="docutils literal notranslate"><span class="pre">Project.add_cfg_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.add_component"><code class="docutils literal notranslate"><span class="pre">Project.add_component()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.add_container"><code class="docutils literal notranslate"><span class="pre">Project.add_container()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.add_precompiled_kernel"><code class="docutils literal notranslate"><span class="pre">Project.add_precompiled_kernel()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.build"><code class="docutils literal notranslate"><span class="pre">Project.build()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.clean"><code class="docutils literal notranslate"><span class="pre">Project.clean()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.clean_all"><code class="docutils literal notranslate"><span class="pre">Project.clean_all()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.exportProject"><code class="docutils literal notranslate"><span class="pre">Project.exportProject()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.generate_build_files"><code class="docutils literal notranslate"><span class="pre">Project.generate_build_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.importProject"><code class="docutils literal notranslate"><span class="pre">Project.importProject()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.import_files"><code class="docutils literal notranslate"><span class="pre">Project.import_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.list_components"><code class="docutils literal notranslate"><span class="pre">Project.list_components()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.remove_cfg_files"><code class="docutils literal notranslate"><span class="pre">Project.remove_cfg_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.remove_component"><code class="docutils literal notranslate"><span class="pre">Project.remove_component()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.remove_container"><code class="docutils literal notranslate"><span class="pre">Project.remove_container()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.remove_files"><code class="docutils literal notranslate"><span class="pre">Project.remove_files()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.remove_precompiled_kernel"><code class="docutils literal notranslate"><span class="pre">Project.remove_precompiled_kernel()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.report"><code class="docutils literal notranslate"><span class="pre">Project.report()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="vitis.html#vitis.project.Project.update_platform"><code class="docutils literal notranslate"><span class="pre">Project.update_platform()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="vitis.html#module-vitis">Module contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.create_client"><code class="docutils literal notranslate"><span class="pre">create_client()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="vitis.html#vitis.dispose"><code class="docutils literal notranslate"><span class="pre">dispose()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="xsdb.html">xsdb package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="xsdb.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xsdb.html#module-xsdb.jtag">xsdb.jtag module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.jtag.Jtag"><code class="docutils literal notranslate"><span class="pre">Jtag</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.Jtag.claim"><code class="docutils literal notranslate"><span class="pre">Jtag.claim()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.Jtag.device_properties"><code class="docutils literal notranslate"><span class="pre">Jtag.device_properties()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.Jtag.disclaim"><code class="docutils literal notranslate"><span class="pre">Jtag.disclaim()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.Jtag.frequency"><code class="docutils literal notranslate"><span class="pre">Jtag.frequency()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.Jtag.lock"><code class="docutils literal notranslate"><span class="pre">Jtag.lock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.Jtag.sequence"><code class="docutils literal notranslate"><span class="pre">Jtag.sequence()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.Jtag.servers"><code class="docutils literal notranslate"><span class="pre">Jtag.servers()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.Jtag.skew"><code class="docutils literal notranslate"><span class="pre">Jtag.skew()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.Jtag.unlock"><code class="docutils literal notranslate"><span class="pre">Jtag.unlock()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.jtag.JtagSequence"><code class="docutils literal notranslate"><span class="pre">JtagSequence</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.JtagSequence.atomic"><code class="docutils literal notranslate"><span class="pre">JtagSequence.atomic()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.JtagSequence.clear"><code class="docutils literal notranslate"><span class="pre">JtagSequence.clear()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.JtagSequence.delay"><code class="docutils literal notranslate"><span class="pre">JtagSequence.delay()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.JtagSequence.drshift"><code class="docutils literal notranslate"><span class="pre">JtagSequence.drshift()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.JtagSequence.get_pin"><code class="docutils literal notranslate"><span class="pre">JtagSequence.get_pin()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.JtagSequence.irshift"><code class="docutils literal notranslate"><span class="pre">JtagSequence.irshift()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.JtagSequence.run"><code class="docutils literal notranslate"><span class="pre">JtagSequence.run()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.JtagSequence.set_pin"><code class="docutils literal notranslate"><span class="pre">JtagSequence.set_pin()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.jtag.JtagSequence.state"><code class="docutils literal notranslate"><span class="pre">JtagSequence.state()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="xsdb.html#module-xsdb.session">xsdb.session module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.session.Session"><code class="docutils literal notranslate"><span class="pre">Session</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.configparams"><code class="docutils literal notranslate"><span class="pre">Session.configparams()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.connect"><code class="docutils literal notranslate"><span class="pre">Session.connect()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.disconnect"><code class="docutils literal notranslate"><span class="pre">Session.disconnect()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.gdb_connect"><code class="docutils literal notranslate"><span class="pre">Session.gdb_connect()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.gdb_disconnect"><code class="docutils literal notranslate"><span class="pre">Session.gdb_disconnect()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.jtag_targets"><code class="docutils literal notranslate"><span class="pre">Session.jtag_targets()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.stapl"><code class="docutils literal notranslate"><span class="pre">Session.stapl()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.start_tcf_server"><code class="docutils literal notranslate"><span class="pre">Session.start_tcf_server()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.svf"><code class="docutils literal notranslate"><span class="pre">Session.svf()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.targets"><code class="docutils literal notranslate"><span class="pre">Session.targets()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.tfile"><code class="docutils literal notranslate"><span class="pre">Session.tfile()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.version"><code class="docutils literal notranslate"><span class="pre">Session.version()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.xsdbserver_disconnect"><code class="docutils literal notranslate"><span class="pre">Session.xsdbserver_disconnect()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.xsdbserver_start"><code class="docutils literal notranslate"><span class="pre">Session.xsdbserver_start()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.xsdbserver_stop"><code class="docutils literal notranslate"><span class="pre">Session.xsdbserver_stop()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.session.Session.xsdbserver_version"><code class="docutils literal notranslate"><span class="pre">Session.xsdbserver_version()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="xsdb.html#module-xsdb.stapl">xsdb.stapl module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.stapl.Stapl"><code class="docutils literal notranslate"><span class="pre">Stapl</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.stapl.Stapl.config"><code class="docutils literal notranslate"><span class="pre">Stapl.config()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.stapl.Stapl.start"><code class="docutils literal notranslate"><span class="pre">Stapl.start()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.stapl.Stapl.stop"><code class="docutils literal notranslate"><span class="pre">Stapl.stop()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="xsdb.html#module-xsdb.svf">xsdb.svf module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.svf.SVF"><code class="docutils literal notranslate"><span class="pre">SVF</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.svf.SVF.con"><code class="docutils literal notranslate"><span class="pre">SVF.con()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.svf.SVF.config"><code class="docutils literal notranslate"><span class="pre">SVF.config()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.svf.SVF.delay"><code class="docutils literal notranslate"><span class="pre">SVF.delay()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.svf.SVF.dow"><code class="docutils literal notranslate"><span class="pre">SVF.dow()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.svf.SVF.generate"><code class="docutils literal notranslate"><span class="pre">SVF.generate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.svf.SVF.mwr"><code class="docutils literal notranslate"><span class="pre">SVF.mwr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.svf.SVF.rst"><code class="docutils literal notranslate"><span class="pre">SVF.rst()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.svf.SVF.stop"><code class="docutils literal notranslate"><span class="pre">SVF.stop()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="xsdb.html#module-xsdb.target">xsdb.target module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.target.Target"><code class="docutils literal notranslate"><span class="pre">Target</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.backtrace"><code class="docutils literal notranslate"><span class="pre">Target.backtrace()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.bpadd"><code class="docutils literal notranslate"><span class="pre">Target.bpadd()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.bpdisable"><code class="docutils literal notranslate"><span class="pre">Target.bpdisable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.bpenable"><code class="docutils literal notranslate"><span class="pre">Target.bpenable()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.bplist"><code class="docutils literal notranslate"><span class="pre">Target.bplist()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.bpremove"><code class="docutils literal notranslate"><span class="pre">Target.bpremove()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.bpstatus"><code class="docutils literal notranslate"><span class="pre">Target.bpstatus()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.bt"><code class="docutils literal notranslate"><span class="pre">Target.bt()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.con"><code class="docutils literal notranslate"><span class="pre">Target.con()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.device_authjtag"><code class="docutils literal notranslate"><span class="pre">Target.device_authjtag()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.device_program"><code class="docutils literal notranslate"><span class="pre">Target.device_program()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.device_status"><code class="docutils literal notranslate"><span class="pre">Target.device_status()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.dis"><code class="docutils literal notranslate"><span class="pre">Target.dis()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.dow"><code class="docutils literal notranslate"><span class="pre">Target.dow()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.fpga"><code class="docutils literal notranslate"><span class="pre">Target.fpga()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.init_ps"><code class="docutils literal notranslate"><span class="pre">Target.init_ps()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.jtagterminal"><code class="docutils literal notranslate"><span class="pre">Target.jtagterminal()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.loadhw"><code class="docutils literal notranslate"><span class="pre">Target.loadhw()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.loadipxact"><code class="docutils literal notranslate"><span class="pre">Target.loadipxact()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.locals"><code class="docutils literal notranslate"><span class="pre">Target.locals()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.mask_poll"><code class="docutils literal notranslate"><span class="pre">Target.mask_poll()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.mask_write"><code class="docutils literal notranslate"><span class="pre">Target.mask_write()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.mb_drrd"><code class="docutils literal notranslate"><span class="pre">Target.mb_drrd()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.mb_drwr"><code class="docutils literal notranslate"><span class="pre">Target.mb_drwr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.mbprofile"><code class="docutils literal notranslate"><span class="pre">Target.mbprofile()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.mbtrace"><code class="docutils literal notranslate"><span class="pre">Target.mbtrace()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.mdm_drrd"><code class="docutils literal notranslate"><span class="pre">Target.mdm_drrd()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.mdm_drwr"><code class="docutils literal notranslate"><span class="pre">Target.mdm_drwr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.memmap"><code class="docutils literal notranslate"><span class="pre">Target.memmap()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.mrd"><code class="docutils literal notranslate"><span class="pre">Target.mrd()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.mwr"><code class="docutils literal notranslate"><span class="pre">Target.mwr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.nxt"><code class="docutils literal notranslate"><span class="pre">Target.nxt()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.nxti"><code class="docutils literal notranslate"><span class="pre">Target.nxti()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.osa"><code class="docutils literal notranslate"><span class="pre">Target.osa()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.plm_copy_debug_log"><code class="docutils literal notranslate"><span class="pre">Target.plm_copy_debug_log()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.plm_log"><code class="docutils literal notranslate"><span class="pre">Target.plm_log()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.plm_set_debug_log"><code class="docutils literal notranslate"><span class="pre">Target.plm_set_debug_log()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.plm_set_log_level"><code class="docutils literal notranslate"><span class="pre">Target.plm_set_log_level()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.pmc"><code class="docutils literal notranslate"><span class="pre">Target.pmc()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.print"><code class="docutils literal notranslate"><span class="pre">Target.print()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.profile"><code class="docutils literal notranslate"><span class="pre">Target.profile()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.readjtaguart"><code class="docutils literal notranslate"><span class="pre">Target.readjtaguart()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.rrd"><code class="docutils literal notranslate"><span class="pre">Target.rrd()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.rst"><code class="docutils literal notranslate"><span class="pre">Target.rst()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.rwr"><code class="docutils literal notranslate"><span class="pre">Target.rwr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.state"><code class="docutils literal notranslate"><span class="pre">Target.state()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.stop"><code class="docutils literal notranslate"><span class="pre">Target.stop()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.stp"><code class="docutils literal notranslate"><span class="pre">Target.stp()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.stpi"><code class="docutils literal notranslate"><span class="pre">Target.stpi()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.stpout"><code class="docutils literal notranslate"><span class="pre">Target.stpout()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.unloadhw"><code class="docutils literal notranslate"><span class="pre">Target.unloadhw()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.target.Target.verify"><code class="docutils literal notranslate"><span class="pre">Target.verify()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="xsdb.html#module-xsdb.tfile">xsdb.tfile module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile"><code class="docutils literal notranslate"><span class="pre">TFile</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.close"><code class="docutils literal notranslate"><span class="pre">TFile.close()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.copy"><code class="docutils literal notranslate"><span class="pre">TFile.copy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.fsetstat"><code class="docutils literal notranslate"><span class="pre">TFile.fsetstat()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.fstat"><code class="docutils literal notranslate"><span class="pre">TFile.fstat()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.ls"><code class="docutils literal notranslate"><span class="pre">TFile.ls()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.lstat"><code class="docutils literal notranslate"><span class="pre">TFile.lstat()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.mkdir"><code class="docutils literal notranslate"><span class="pre">TFile.mkdir()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.open"><code class="docutils literal notranslate"><span class="pre">TFile.open()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.opendir"><code class="docutils literal notranslate"><span class="pre">TFile.opendir()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.read"><code class="docutils literal notranslate"><span class="pre">TFile.read()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.readdir"><code class="docutils literal notranslate"><span class="pre">TFile.readdir()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.readlink"><code class="docutils literal notranslate"><span class="pre">TFile.readlink()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.realpath"><code class="docutils literal notranslate"><span class="pre">TFile.realpath()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.remove"><code class="docutils literal notranslate"><span class="pre">TFile.remove()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.rename"><code class="docutils literal notranslate"><span class="pre">TFile.rename()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.rmdir"><code class="docutils literal notranslate"><span class="pre">TFile.rmdir()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.roots"><code class="docutils literal notranslate"><span class="pre">TFile.roots()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.setstat"><code class="docutils literal notranslate"><span class="pre">TFile.setstat()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.stat"><code class="docutils literal notranslate"><span class="pre">TFile.stat()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.symlink"><code class="docutils literal notranslate"><span class="pre">TFile.symlink()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.user"><code class="docutils literal notranslate"><span class="pre">TFile.user()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="xsdb.html#xsdb.tfile.TFile.write"><code class="docutils literal notranslate"><span class="pre">TFile.write()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="xsdb.html#module-xsdb.xsdb_debug_session">xsdb.xsdb_debug_session module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.xsdb_debug_session.dispose_session"><code class="docutils literal notranslate"><span class="pre">dispose_session()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.xsdb_debug_session.interactive_mode"><code class="docutils literal notranslate"><span class="pre">interactive_mode()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.xsdb_debug_session.xsdb_help"><code class="docutils literal notranslate"><span class="pre">xsdb_help()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.xsdb_debug_session.xsdb_start_debug_session"><code class="docutils literal notranslate"><span class="pre">xsdb_start_debug_session()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="xsdb.html#module-xsdb">Module contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.dispose"><code class="docutils literal notranslate"><span class="pre">dispose()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.help"><code class="docutils literal notranslate"><span class="pre">help()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.interactive"><code class="docutils literal notranslate"><span class="pre">interactive()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="xsdb.html#xsdb.start_debug_session"><code class="docutils literal notranslate"><span class="pre">start_debug_session()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Vitis Python CLI 2025.1 documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="vitis.html" class="btn btn-neutral float-right" title="vitis package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, AMD.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

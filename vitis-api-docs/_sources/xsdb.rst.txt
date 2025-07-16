@@ -1,0 +1,69 @@
+xsdb package
+============
+
+Submodules
+----------
+
+xsdb.jtag module
+----------------
+
+.. automodule:: xsdb.jtag
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+xsdb.session module
+-------------------
+
+.. automodule:: xsdb.session
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+xsdb.stapl module
+-----------------
+
+.. automodule:: xsdb.stapl
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+xsdb.svf module
+---------------
+
+.. automodule:: xsdb.svf
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+xsdb.target module
+------------------
+
+.. automodule:: xsdb.target
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+xsdb.tfile module
+-----------------
+
+.. automodule:: xsdb.tfile
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+xsdb.xsdb\_debug\_session module
+--------------------------------
+
+.. automodule:: xsdb.xsdb_debug_session
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: xsdb
+   :members:
+   :show-inheritance:
+   :undoc-members:

@@ -1,0 +1,85 @@
+vitis package
+=============
+
+Submodules
+----------
+
+vitis.analysis module
+---------------------
+
+.. automodule:: vitis.analysis
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+vitis.cli\_client module
+------------------------
+
+.. automodule:: vitis.cli_client
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+vitis.component module
+----------------------
+
+.. automodule:: vitis.component
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+vitis.configfile module
+-----------------------
+
+.. automodule:: vitis.configfile
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+vitis.domain module
+-------------------
+
+.. automodule:: vitis.domain
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+vitis.ldfile module
+-------------------
+
+.. automodule:: vitis.ldfile
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+vitis.logger module
+-------------------
+
+.. automodule:: vitis.logger
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+vitis.platform\_component module
+--------------------------------
+
+.. automodule:: vitis.platform_component
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+vitis.project module
+--------------------
+
+.. automodule:: vitis.project
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: vitis
+   :members:
+   :show-inheritance:
+   :undoc-members:
