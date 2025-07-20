@@ -1,0 +1,8 @@
+{
+	"clangd.arguments": [
+		"--header-insertion=never",
+		"--pch-storage=memory",
+		"--completion-style=detailed",
+	],
+	"editor.formatOnType": true
+}

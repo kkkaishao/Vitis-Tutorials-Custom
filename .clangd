@@ -1,0 +1,34 @@
+CompileFlags:
+  Compiler: /opt/Xilinx/2025.1/petalinux/sysroots/x86_64-petalinux-linux/usr/bin/aarch64-amd-linux/aarch64-amd-linux-g++
+  Remove: [-*]
+  Add:
+    - -target
+    - aarch64-amd-linux
+    - --sysroot=/opt/Xilinx/2025.1/petalinux/sysroots/cortexa72-cortexa53-amd-linux
+    - -isystem/opt/Xilinx/2025.1/petalinux/sysroots/cortexa72-cortexa53-amd-linux/usr/include/c++/13.3.0
+    - -isystem/opt/Xilinx/2025.1/petalinux/sysroots/cortexa72-cortexa53-amd-linux/usr/include/c++/13.3.0/aarch64-amd-linux
+    - -isystem/opt/Xilinx/2025.1/petalinux/sysroots/cortexa72-cortexa53-amd-linux/usr/include/c++/13.3.0/backward
+    - -isystem/opt/Xilinx/2025.1/petalinux/sysroots/cortexa72-cortexa53-amd-linux/usr/lib/aarch64-amd-linux/13.3.0/include
+    - -isystem/opt/Xilinx/2025.1/petalinux/sysroots/cortexa72-cortexa53-amd-linux/usr/include/
+    - -I/opt/Xilinx/2025.1/Vivado/include
+    - -I/opt/Xilinx/2025.1/Vitis/include
+    - -I/opt/Xilinx/2025.1/Vitis/include/etc
+    - -I/opt/Xilinx/2025.1/Vitis/aietools/include
+    - -I/opt/Xilinx/2025.1/Vitis/lnx64/tools/auto_cc/include
+    - -I/opt/Xilinx/2025.1/petalinux/sysroots/cortexa72-cortexa53-amd-linux/usr/include/xrt
+    - -O0
+    - -g
+    - -std=c++17
+    - -D_FORTIFY_SOURCE=2
+    - -D__AIESIM__
+    - -Wall
+    - -fstack-protector-strong 
+    - -Wformat
+    - -Wformat-security
+    - -Werror=format-security
+
+Completion:
+  AllScopes: Yes
+
+Diagnostics:
+  UnusedIncludes: None
